@@ -5,6 +5,21 @@
   --blue-color: #525E75;
 }
 
+/* Highlight Color */
+::-moz-selection {
+  background: #92BA92;
+  /* WebKit/Blink Browsers */
+}
+::selection {
+  background: #92BA92;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #92BA92;
+  /* Gecko Browsers */
+}
+
 html,
 body {
   max-width: 100%;
